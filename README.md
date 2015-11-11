@@ -2,7 +2,7 @@
 
 How to get your geolocation coordinate from your phone.
 
-[loca](http://i.giphy.com/HzMfJIkTZgx8s.gif)
+![loca](http://i.giphy.com/HzMfJIkTZgx8s.gif)
 
 1. Create new single view application.
 2. Add the CoreLocation library.  This will give you access to the set of functions and atrributes related to location.
