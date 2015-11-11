@@ -11,11 +11,17 @@ import CoreLocation
 
 3.  We are going to starting adding the following property to our ViewController class:
 
-```Swift private var locationManager = CLLocationManager() ```
+```swift 
+private var locationManager = CLLocationManager() 
+```
 
 4. Let’s edit our viewDidLoad method to get our location manager instance started!
+
+```swift
 
 override func viewDidLoad() {
     super.viewDidLoad()
     self.locationManager.delegate = self
     self.locationManager.requestAlwaysAuthorization()
+
+```
