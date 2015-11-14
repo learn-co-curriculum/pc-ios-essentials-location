@@ -4,20 +4,21 @@ How to get your geolocation coordinate from your phone.
 
 ![loca](http://i.giphy.com/HzMfJIkTZgx8s.gif)
 
-1. Create new single view application.
-2. Add the CoreLocation library at the top of your ViewController.  This will give you access to the set of functions and atrributes related to location.
+1) Create new single view application.
+
+2) Add the CoreLocation library at the top of your ViewController.  This will give you access to the set of functions and atrributes related to location.
 
 ```swift 
 import CoreLocation
 ```
 
-3.  Add CLLocationManagerDelegate to your class header
+3)  Add CLLocationManagerDelegate to your class header
 
 ```swift 
 class ViewController: UIViewController, CLLocationManagerDelegate
 ```
 
-4.  Add the following property to our ViewController class:
+4)  Add the following property to our ViewController class:
 
 ```swift 
 var locationManager = CLLocationManager() 
