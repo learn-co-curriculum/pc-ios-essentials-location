@@ -14,7 +14,7 @@ How to get your geolocation coordinate from your phone.
 
 **3) Add CLLocationManagerDelegate to your class header**
 
-        ```swift 
+        ```swift
                 class ViewController: UIViewController, CLLocationManagerDelegate
         ```
 
