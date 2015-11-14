@@ -32,11 +32,11 @@ This creates a new CLLocation manager instance.
 ```swift
 
         override func viewDidLoad() {
-                 self.locationManager.desiredAccuracy = kCLLocationAccuracyBest
-                        self.locationManager.requestWhenInUseAuthorization()
-                        self.locationManager.requestAlwaysAuthorization()
-                        self.locationManager.startUpdatingLocation()
-        ```
+                self.locationManager.desiredAccuracy = kCLLocationAccuracyBest
+                self.locationManager.requestWhenInUseAuthorization()
+                self.locationManager.requestAlwaysAuthorization()
+                self.locationManager.startUpdatingLocation()
+```
 
 
 **6) We need tell swift what to do when we call our locationManager.  In this case, we want it to print out "locations."**
