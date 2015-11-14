@@ -29,7 +29,7 @@ This creates a new CLLocation manager instance.
 
 **5) Let’s edit our viewDidLoad method to get our location manager instance started!**
 
-        ```swift
+```swift
 
         override func viewDidLoad() {
                  self.locationManager.desiredAccuracy = kCLLocationAccuracyBest
