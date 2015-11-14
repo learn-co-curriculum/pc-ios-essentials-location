@@ -4,21 +4,21 @@ How to get your geolocation coordinate from your phone.
 
 ![loca](http://i.giphy.com/HzMfJIkTZgx8s.gif)
 
-*1) Create new single view application.*
+**1) Create new single view application.**
 
-*2) Add the CoreLocation library at the top of your ViewController.  This will give you access to the set of functions and atrributes related to location.*
+**2) Add the CoreLocation library at the top of your ViewController.  This will give you access to the set of functions and atrributes related to location.**
 
         ```swift 
                 import CoreLocation
         ```
 
-*3) Add CLLocationManagerDelegate to your class header*
+**3) Add CLLocationManagerDelegate to your class header**
 
         ```swift 
                 class ViewController: UIViewController, CLLocationManagerDelegate
         ```
 
-*4) Add the following property to our ViewController class:*
+**4) Add the following property to our ViewController class:**
 
         ```swift 
                 var locationManager = CLLocationManager() 
@@ -27,7 +27,7 @@ How to get your geolocation coordinate from your phone.
 This creates a new CLLocation manager instance.
 
 
-*5) Let’s edit our viewDidLoad method to get our location manager instance started!*
+**5) Let’s edit our viewDidLoad method to get our location manager instance started!**
 
         ```swift
 
@@ -36,11 +36,10 @@ This creates a new CLLocation manager instance.
                         self.locationManager.requestWhenInUseAuthorization()
                         self.locationManager.requestAlwaysAuthorization()
                         self.locationManager.startUpdatingLocation()
-
-
         ```
 
-6. We need tell swift what to do when we call our locationManager.  In this case, we want it to print out "locations."  **
+
+**6) We need tell swift what to do when we call our locationManager.  In this case, we want it to print out "locations."**
 
 ```swift
  func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
