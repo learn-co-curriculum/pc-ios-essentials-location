@@ -53,3 +53,5 @@ This creates a new CLLocation manager instance.
 **8. Last step!**  In your Project Navigator, click on the name of your app, at the top.  On the top menu bar, select *Build Phases*.  Select **Link with Binary Library** and add the *CoreLocation.framework.*
 
 Now run your app!
+
+<a href='https://learn.co/lessons/pc-ios-essentials-location' data-visibility='hidden'>View this lesson on Learn.co</a>
